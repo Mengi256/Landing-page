@@ -11,8 +11,8 @@ header{
 h1{
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 90px;
-    line-height: 0%;
+    margin-left: 10%;
+    margin-bottom: 0;
 }
 ul{
     display: flex;
@@ -36,40 +36,36 @@ ul li a{
 .container2{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .text{
-    display: flex;
-    flex-direction: column;
-}
-.text li{
-    margin-left: 90px;
+    margin-left: 10%;
+    
+    
     
 }
-.text li h2{
-    margin-bottom: 0;
+.h2{
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
-.text li p{
-    margin-top: 0;
+.subtext{
     color: #E5E7EB;
     font-size: 18px;
+    margin-top: 10px;
 }
-.text li button{
-    margin-top: 0;
-    margin-bottom: 20px;
+.button{
     background-color: #3882F6;
-    border: none;
     color: white;
-    text-align: center;
-    padding: 10px;
-    width: 120px;
-    height: 40px;
-    border-radius: 6px;
     font-weight: bold;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    
 }
+
 .image{
     width: 400px;
     height: 200px;
